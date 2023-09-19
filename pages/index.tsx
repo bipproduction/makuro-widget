@@ -1,6 +1,7 @@
 import React from 'react';
+import WidgetBar from '../src/widget/bar';
 export default function () {
     return <>
-        apa kabar
+        <WidgetBar test={true}  />
     </>
 }
